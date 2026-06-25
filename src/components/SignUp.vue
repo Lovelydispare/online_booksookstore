@@ -36,7 +36,9 @@ function register()
         phonenumber: phonenumber.value,
         location: location.value,
         password: password.value,
-        role: 2,                       //role 1 is for admin, role 2 is for customer
+        role: 2,                      
+        
+        //role 1 is for admin, role 2 is for customer
     }
     signup(data)
     router.push('/').then(() =>{
